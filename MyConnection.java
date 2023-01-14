@@ -18,7 +18,7 @@ public class MyConnection {
         Connection con = null;
         try {
         	Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://193.23.127.132:3306/swing_demo", "remoteUser", "123456");
+            con = DriverManager.getConnection("jdbc:mysql://193.23.127.132:3307/swing_demo", "remoteUser", "123456");
 
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
